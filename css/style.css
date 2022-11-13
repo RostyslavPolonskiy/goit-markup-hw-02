@@ -23,12 +23,12 @@ a {
   color: var(--color-text-black-main);
 }
 
-a.current  {
-    color: var(--color-dodger-blue);
-  }
+a.current {
+  color: var(--color-dodger-blue);
+}
 
 a:hover {
-    color: var(--color-dodger-blue);
+  color: var(--color-dodger-blue);
 }
 
 address {
@@ -44,10 +44,10 @@ li {
   list-style-type: none;
 }
 
-.button {
-    font-size: 16px;
-    line-height: 1.62;
-  }
+button {
+  cursor: pointer;
+  font-size: 16px;
+}
 
 .logo {
   font-weight: 700;
@@ -76,6 +76,16 @@ li {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--color-white);
+}
+
+.banner-button {
+  font-weight: 700;
+  line-height: 1.87;
+  color: var(--color-white);
+  width: 216px;
+  height: 50px;
+  background: var(--color-dodger-blue);
+  border-color: var(--color-dodger-blue);
 }
 
 .section-title {
@@ -118,27 +128,15 @@ li {
   background: var(--color-tuna);
 }
 
-/* footer */
-
-.adress a {
-  line-height: 1.7;
-  letter-spacing: 0.03em;
-  color: var(--color-white);
-}
-
-.mail-number a {
+.header-contacts-link {
   line-height: 1.7;
   letter-spacing: 0.03em;
   color: var(--color-boulder);
 }
 
-/* portfolio */
-
-/* shapka */
-
-.header-link {
+.header-nav-link {
   font-weight: 500;
-  line-height: 16px;
+  line-height: 1.14x;
   letter-spacing: 0.02em;
   color: var(--color-text-black-main);
 }
@@ -155,4 +153,11 @@ li {
   line-height: 1.87;
   letter-spacing: 0.03em;
   color: var(--color-boulder);
+}
+
+.filter-button {
+  background-color: var(--color-whisper);
+  border: 1px solid var(--color-whisper);
+  height: 38px;
+  border-radius: 4px;
 }
