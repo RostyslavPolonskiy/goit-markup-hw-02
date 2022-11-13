@@ -1,3 +1,158 @@
-p {
-    color: red
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap");
+
+:root {
+  --color-text-black-main: #212121;
+  --color-dodger-blue: #2196f3;
+  --color-boulder: #757575;
+  --color-black: #000000;
+  --color-white: #ffffff;
+  --color-tuna: #2f303a;
+  --color-wild-sand: #f5f5f5;
+  --color-whisper: #f5f4fa;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--color-text-black-main);
+  letter-spacing: 0.03em;
+  font-size: 14px;
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-text-black-main);
+}
+
+a.current  {
+    color: var(--color-dodger-blue);
+  }
+
+a:hover {
+    color: var(--color-dodger-blue);
+}
+
+address {
+  font-style: normal;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+.button {
+    font-size: 16px;
+    line-height: 1.62;
+  }
+
+.logo {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  font-family: "Raleway", sans-serif;
+}
+
+.logo span {
+  color: var(--color-dodger-blue);
+}
+
+.header-logo {
+  color: var(--color-black);
+}
+
+.footer-logo {
+  color: var(--color-white);
+}
+
+.page-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--color-white);
+}
+
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.detail-item-title {
+  font-weight: 700;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.taem-member-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.detail-item-deskription {
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.team-member-after-title {
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.banner,
+.page-footer {
+  background: var(--color-tuna);
+}
+
+/* footer */
+
+.adress a {
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: var(--color-white);
+}
+
+.mail-number a {
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: var(--color-boulder);
+}
+
+/* portfolio */
+
+/* shapka */
+
+.header-link {
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: var(--color-text-black-main);
+}
+
+.title {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--color-text-black-main);
+}
+
+.services {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--color-boulder);
 }
