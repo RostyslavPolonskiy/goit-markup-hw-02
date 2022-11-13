@@ -32,9 +32,9 @@ a:hover {
   color: var(--color-dodger-blue);
 }
 
-address {
+ address {
   font-style: normal;
-}
+} 
 
 ul {
   padding: 0;
@@ -100,7 +100,6 @@ button {
 }
 
 .section-title {
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
@@ -108,7 +107,6 @@ button {
 }
 
 .detail-item-title {
-  font-weight: 700;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
