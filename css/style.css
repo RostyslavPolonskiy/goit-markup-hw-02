@@ -6,6 +6,7 @@
   --color-boulder: #757575;
   --color-black: #000000;
   --color-white: #ffffff;
+  --color-white-transperent: rgba(255, 255, 255, 0.6);
   --color-tuna: #2f303a;
   --color-wild-sand: #f5f5f5;
   --color-whisper: #f5f4fa;
@@ -66,6 +67,16 @@ button {
 
 .footer-logo {
   color: var(--color-white);
+}
+
+.address-link {
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: var(--color-white-transperent);
+}
+
+.street {
+    color: var(--color-white);
 }
 
 .page-title {
