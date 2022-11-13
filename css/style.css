@@ -61,11 +61,11 @@ button {
   color: var(--color-dodger-blue);
 }
 
-.header-logo {
+.logo.header-logo {
   color: var(--color-black);
 }
 
-.footer-logo {
+.logo.footer-logo {
   color: var(--color-white);
 }
 
