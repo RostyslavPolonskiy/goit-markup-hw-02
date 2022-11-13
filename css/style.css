@@ -85,7 +85,6 @@ button {
   line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
-  text-transform: uppercase;
   color: var(--color-white);
 }
 
@@ -109,7 +108,6 @@ button {
 .detail-item-title {
   line-height: 1.14;
   letter-spacing: 0.03em;
-  text-transform: uppercase;
 }
 
 .taem-member-title {
