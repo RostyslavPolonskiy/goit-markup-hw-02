@@ -28,7 +28,7 @@ a.current {
   color: var(--color-dodger-blue);
 }
 
-a:hover {
+ a:hover { 
   color: var(--color-dodger-blue);
 }
 
@@ -167,4 +167,9 @@ button {
   border: 1px solid var(--color-whisper);
   height: 38px;
   border-radius: 4px;
+}
+
+.filter-button:hover {
+  color: var(--color-wild-sand);
+  background: var(--color-dodger-blue);
 }
